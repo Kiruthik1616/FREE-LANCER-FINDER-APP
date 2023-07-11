@@ -1,0 +1,32 @@
+.cover{
+    text-align: center;
+    background-color: white;
+    margin-left: 33%;
+    margin-top: 5%;
+    width: 25em;
+    height: 25em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(100,156,156);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.button
+{
+    margin-top: 5%;
+    margin-left: 33%;
+    position: relative;
+    text-align: center;
+    width: 40%;
+    height: 3em;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+.button:hover {transform: scale(1.25);}
+
